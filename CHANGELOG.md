@@ -1,5 +1,37 @@
 # Changelog
 
+## [6.0.0](https://github.com/mariusbegby/cadence-discord-bot/compare/v5.7.0...v6.0.0) (2023-12-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Localization support, breaking change.
+
+### Features
+
+* Add norwegian localization file (no) ([a0dd74e](https://github.com/mariusbegby/cadence-discord-bot/commit/a0dd74e8d86a54d0a515cdc56b2fe4d80c61f3c7))
+* Localization support, breaking change. ([28592b1](https://github.com/mariusbegby/cadence-discord-bot/commit/28592b13d836f52f501ab9d0b6168cdf7174804b))
+
+
+### Minor changes and bug fixes
+
+* add config option for open source url and icon ([4f29399](https://github.com/mariusbegby/cadence-discord-bot/commit/4f29399a8eb2204b72e89e5bffdac730aca5fc13))
+* Add Open source button to /status ([fa84e29](https://github.com/mariusbegby/cadence-discord-bot/commit/fa84e2925e048819e56b37f1257699653daf472b))
+* Add track position to footer when track(s) added to queue in /play ([d496945](https://github.com/mariusbegby/cadence-discord-bot/commit/d496945949e58d7430c61177a3d38f0e178195e2))
+* Better handling of unavailable source  after added to queue ([69d23d1](https://github.com/mariusbegby/cadence-discord-bot/commit/69d23d1b77fc9066abd2cc532e5a54c36c0f064c))
+* Fix not being able to select multiple ffmpeg filters ([83462ab](https://github.com/mariusbegby/cadence-discord-bot/commit/83462ab6265937d0c517436cbf2a9bc60d1c1aaa))
+* Fix showing repeat mode in skipped track ([88511f8](https://github.com/mariusbegby/cadence-discord-bot/commit/88511f87c1fffb7270a70fe4782789e1288c5f22))
+* override willAutoPlay event to set bot user as requestedBy ([aa36925](https://github.com/mariusbegby/cadence-discord-bot/commit/aa3692592dc876c10b0372df399c1fb0925359ec))
+* remove unnecessary queue.clear() call in /stop ([f9fa501](https://github.com/mariusbegby/cadence-discord-bot/commit/f9fa501125bc96ade97fc76dda65729712be5044))
+* Replace support server and add bot info with link buttons in /help ([612e3a0](https://github.com/mariusbegby/cadence-discord-bot/commit/612e3a00a65fc8c3aa36b5c0c0a012349d44ee09))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @types/node from 20.10.4 to 20.10.5 ([a834e4b](https://github.com/mariusbegby/cadence-discord-bot/commit/a834e4bfa80d96dd7a9f75f14f6619c760f92576))
+* **deps-dev:** bump eslint from 8.55.0 to 8.56.0 ([6c4f3a9](https://github.com/mariusbegby/cadence-discord-bot/commit/6c4f3a9d280631113f0b0f6a82428a069ae1fd94))
+* **deps:** bump pino from 8.16.2 to 8.17.1 ([d7a98c1](https://github.com/mariusbegby/cadence-discord-bot/commit/d7a98c1f8605e5364019e18f94da853e67d3f31e))
+
 ## [5.7.0](https://github.com/mariusbegby/cadence-discord-bot/compare/v5.6.8...v5.7.0) (2023-12-13)
 
 
